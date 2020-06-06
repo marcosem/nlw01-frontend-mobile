@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import {
-  View,
-  StyleSheet,
-  TouchableOpacity,
-  Image,
-  Text,
-  SafeAreaView,
-  Linking
-} from 'react-native';
+    View,
+    StyleSheet,
+    TouchableOpacity,
+    Image,
+    Text,
+    SafeAreaView,
+    Linking
+  } from 'react-native';
 import Constants from 'expo-constants';
 import { Feather as Icon, FontAwesome } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
